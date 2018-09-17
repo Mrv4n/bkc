@@ -20,26 +20,26 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-echo -e " ██████ ╗    ██ ╗     ██ ╗      ██████╗"
-echo -e " █   ╔══██╗   ██║  ██ ╔╝   ██╔════╝"
-echo -e " ██████╔╝   █████╔╝      ██║"
-echo -e " █   ╔══██╗   ██╔═██╗      ██║"
-echo -e " ██████╔╝   ██║      ██╗   ╚██████╗"
-echo -e "╚═════╝      ╚═╝      ╚═╝      ╚═════╝"
-echo -e "#######################"
+echo -e " ██████╗   ██ ╗  ██╗    ██████╗"
+echo -e " █ ╔══██╗   ██║ ██╔╝   ██╔════╝"
+echo -e " ██████╔╝   █████╔╝    ██║"
+echo -e " █ ╔══██╗   ██╔═██╗    ██║"
+echo -e " ██████╔╝   ██║   ██╗   ╚██████╗"
+echo -e " ╚═════╝    ╚═╝   ╚═╝    ╚═════╝"
+echo -e "###############################"
 echo -e "#Author : Mr.van And Mr.uchiel#"
-echo -e "#contats : 089604261238         #"
-echo -e "#Blood's Knigth Cyber                #"
-echo -e "#Nick You : $ {usnm}                     #"
-echo -e "#######################"
+echo -e "#contats : 089604261238       #"
+echo -e "#Blood's Knigth Cyber         #"
+echo -e "#Nick You : ${usnm}           #"
+echo -e "###############################"
 echo
 sleep 1
-echo -e $cyan"====================="$red"======================"
-echo -e $cyan"= [ 01 ] Webscan                ="$red"= [ 06 ] Litescript                 ="
-echo -e $cyan"= [ 02 ] Admin-finder          ="$red"= [ 07 ] iesDeface                ="
-echo -e $cyan"= [ 03 ] Litespam                 ="$red"= [ 08 ] Tools-x                     ="
-echo -e $cyan"= [ 04 ] Red_Hawk               ="$red"= [ 09 ]DrakFly-tool              ="
-echo -e $cyan"= [ 05 ] Lazymux                  ="$red"= [ 10 ] recondog                 ="
+echo -e $cyan"======================"$red"======================"
+echo -e $cyan"= [ 01 ] Webscan     ="$red"= [ 06 ] Litescript  ="
+echo -e $cyan"= [ 02 ] Admin-finder="$red"= [ 07 ] iesDeface   ="
+echo -e $cyan"= [ 03 ] Litespam    ="$red"= [ 08 ] Tools-x     ="
+echo -e $cyan"= [ 04 ] Red_Hawk    ="$red"= [ 09 ]DrakFly-tool ="
+echo -e $cyan"= [ 05 ] Lazymux     ="$red"= [ 10 ] recondog    ="
 echo -e $cyan"======================"$red"======================"
 echo -e $cyan"[ 00 ] Exit"
 echo
@@ -50,7 +50,7 @@ then
 clear
 echo -e $u"nginstall webscan"
 sleep 1
-https://github.com/silverhat007/termux_webscan.git
+git clone https://github.com/silverhat007/termux_webscan.git
 echo -e $blue"sukses"
 cd termux_webcan
 /sudo-install.sh
@@ -99,12 +99,12 @@ fi
 if [ $slc = 5 ] || [ $slc = 05 ]
 then
 clear
-echo -e $green"nginstall Lazymux "
+echo -e $u"nginstall Lazymux "
 sleep 1
 pkg install python2
 git clone https://github.com/Gameye98/Lazymux
 clear
-echo -e $green "Sukses"
+echo -e $blue"Sukses"
 cd Lazymux
 chmod +x lazymux.py
 python2 lazymux.py
@@ -113,7 +113,7 @@ fi
 if [ $slc = 6 ] || [ $slc = 06 ]
 then
 clear
-echo -e $u" nginstall LITESCRIPT "
+echo -e $u"nginstall LITESCRIPT "
 sleep 1
 pkg update && pkg upgrade
 pkg install git
