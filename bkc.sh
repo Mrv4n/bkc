@@ -1,6 +1,3 @@
-#!/bin/bash
-#version 1.1
-
 clear
 read -p " [nama lu]> " usnm :
 clear
@@ -178,4 +175,3 @@ then
 clear
 echo -e $red"Exiting ..."
 exit
-fi
